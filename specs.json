@@ -1,0 +1,12 @@
+{
+  "processesPerSecond": 5,
+  "colourSize_Bit": 8,
+  "soundSize_Bit": 8,
+  "memorySize_KB": 512,
+  "diskSize_KB": 2024
+
+  "used" {
+    "usedMemory_KB": 0,
+    "usedDisk_KB": 0
+  }
+}
