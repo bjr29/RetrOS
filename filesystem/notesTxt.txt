@@ -1,0 +1,2 @@
+1. To Remove a note atm, you have to open the file called "notesTxt.txt", this will be replaced with the remove command soon.
+2. I put "Txt" in the name for the ones who can't see file extensions names.

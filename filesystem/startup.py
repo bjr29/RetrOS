@@ -3,7 +3,18 @@ print("LOADING: BIOS...")
 # Imports
 import json
 print("LOADING: FILES...")
-import filesystem, autorun, os, time
+print("LOADING: subprocess")
+import subprocess
+print("LOADING: filesystem")
+import filesystem
+print("LOADING: os")
+import os
+print("LOADING: time")
+import time
+print("LOADING: sys")
+import sys
+print("LOADING: autorun")
+import autorun
 
 print("Loading Complete\n")
 
@@ -11,13 +22,5 @@ print("Loading Complete\n")
 print("AUTORUN: ")
 autorun.run()
 
-
-time.sleep(2)
-os.system("cls")
-print(">==============================================<")
-print("|                                              |")
-print("|    Welcome to RetrOS 0.1 by Ben Rushworth    |")
-print("|                                              |")
-print(">==============================================<\n")
-print("Use 'help' for commands\n")
-filesystem.locations().home()
+time.sleep(1)
+subprocess.call("welcome.py", shell = True)

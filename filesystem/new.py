@@ -1,7 +1,5 @@
 def pythonFile(Name):
-    f = open(Name+".py", "w+")
-    f.write('print("Hello World!")')
-    f.close()
+    f = open(Name, "w+")
 
 name = input("Name of file: ")
 pythonFile(name)
