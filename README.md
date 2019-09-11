@@ -1,7 +1,7 @@
 # RetrOS
 
 ## Requirements
-Requires Python 3 (Python 3.7.4 or newer is recommened)
+Requires Python (Python 3.7.4 or newer is recommened)
 
 Here's a link to a download: https://www.python.org/downloads/
 
